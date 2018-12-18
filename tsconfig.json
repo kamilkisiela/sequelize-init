@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": ["index.ts", "models/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}
